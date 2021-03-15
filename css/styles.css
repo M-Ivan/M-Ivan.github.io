@@ -4252,6 +4252,19 @@ button.btn--pill {
   color: white;
 }
 
+.modal-popup__repo {
+  background-color: #00000000;
+  font-size: 4.5rem;
+  line-height: calc(var(--vspace-1_5) - 2px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgb(0, 0, 0);
+  border-radius: var(--border-radius);
+  padding: 0;
+  position: absolute;
+  bottom: var(--vspace-1_25);
+  right: 4rem;
+}
+
 /* ===================================================================
  * # CTA
  *
