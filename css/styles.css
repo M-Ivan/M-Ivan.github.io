@@ -99,7 +99,7 @@
      * color-2(#F06000)
      */
   --color-1: hsl(209, 100%, 55%);
-  --color-2: #00aeff;
+  --color-2: hsl(199, 100%, 50%);
   --color-3: linear-gradient(
     to right,
     #03001e,
@@ -117,10 +117,10 @@
   --color-1-light: hsla(209, 82%, 48%, 1);
   --color-1-dark: hsla(209, 82%, 28%, 1);
   --color-1-darker: hsla(209, 82%, 18%, 1);
-  --color-2-lighter: hsla(288, 100%, 67%, 1);
-  --color-2-light: hsla(288, 100%, 57%, 1);
-  --color-2-dark: hsla(288, 100%, 37%, 1);
-  --color-2-darker: hsla(288, 100%, 27%, 1);
+  --color-2-lighter: hsla(199, 100%, 67%, 1);
+  --color-2-light: hsla(199, 100%, 57%, 1);
+  --color-2-dark: hsla(199, 100%, 37%, 1);
+  --color-2-darker: hsla(199, 100%, 27%, 1);
 
   /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -3698,7 +3698,7 @@ button.btn--pill {
   background-size: 150%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .s-hero__content h3::after {
@@ -3738,7 +3738,7 @@ button.btn--pill {
 
 .s-hero__content-social a:hover,
 .s-hero__content-social a:focus {
-  color: var(--color-2-light);
+  color: var(--color-2);
 }
 
 .s-hero__content-social a:last-child {
@@ -3981,7 +3981,7 @@ button.btn--pill {
 
 .s-about__content-bottom a:hover,
 .s-about__content-bottom a:focus {
-  color: white;
+  color: var(--color-2-light);
 }
 
 .s-about__content-bottom .btn--download {
