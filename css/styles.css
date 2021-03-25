@@ -4004,6 +4004,7 @@ button.btn--pill {
 .s-about__content-bottom .btn--download:focus {
   background-color: var(--color-5);
   border-color: var(--color-5);
+  color: white;
 }
 
 .s-about__content-bottom .btn--download:hover svg path,
