@@ -218,7 +218,7 @@
 
         <div class="column folio-item">
           <a href="#modal-03" class="folio-item__thumb">
-            <img src="images/portfolio/exchangeR2.png" alt="" />
+            <img src="images/portfolio/buscadorPasajes.png" alt="" />
           </a>
         </div>
         <!-- end folio-item -->
@@ -357,37 +357,31 @@
       </div>
       <!-- end modal -->
 
-      <div id="modal-03" hidden>
+       <div id="modal-03" hidden>
         <div class="modal-popup">
-          <img src="images/portfolio/exchangeR3.png" alt="" />
+          <img src="images/portfolio/buscadorPasajes.png" alt="" />
 
           <div class="modal-popup__desc">
-            <h5>Histórico de cotizaciones<a href="https://github.com/M-Ivan/Historico-de-Cotizaciones" class="modal-popup__repo"
+            <h5>Buscador de pasajes<a href="https://github.com/M-Ivan/Buscador-de-pasajes" class="modal-popup__repo"
             ><i class="fab fa-github" aria-hidden="true"></i
               >GitHub</a></h5>
             <p>
-              Proyecto simple (aunque no tanto) que consume una<a
-                href="https://exchangeratesapi.io/"
-              >
-                API</a
-              >
-              y devuelve las cotizaciones para la fecha elegida, con referencia
-              a la divisa base seleccionada. Por lo que los parametros son 2.
-              Base y fecha. Me sirvió mucho para aprender a manejar Arrays y
-              Objects. La última adición fueron las banderas, que se comportan de manera condicional segun la moneda listada. 
-              El proyecto es con React.
+      Proyecto con tematica de buscador, donde de aplican los params en una
+      request a un endpoint express. El servidor se encarga tambien de buscar
+      en la base de datos (mongoDB) los documentos que cumplen con las propiedades
+      especificadas en los params de la URL. Luego devuelve los documentos 
+      al Frontend y los imprime en una lista que a su vez puede ordenarse según
+      algunos criterios. El proyecto esta hecho con el stack MERN y la UI con material UI. 
+      </p>
             </p>
-              <p class="text-muted">Nota: Dado la relativa simpleza y la ausencia de un back-end. Desistí de crear una DEMO online del proyecto.</p>
             <ul class="modal-popup__cat">
-              <li>React</li>
-              <li>Hooks</li>
-              <li>raw JavaScript</li>
+              <li>React, Material-UI, JavaScript, MongoDB</li>
             </ul>
           </div>
 
-       <!--   <a href="https://www.behance.net/" class="modal-popup__details"
-            >Project link</a
-          > -->
+       <a href="https://buscadorpasajes.herokuapp.com/" class="modal-popup__details"
+            >Demo online</a
+          >
         </div>
       </div>
       <!-- end modal -->
