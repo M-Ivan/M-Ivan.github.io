@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,cACE,sCACF,CAEA,QACE,aACF","file":"main.b7e073ad.chunk.css","sourcesContent":[".color-picker {\n  color: #19171df5;\n}\n\na:hover {\n  color: #ff9100;\n}\n"]}
